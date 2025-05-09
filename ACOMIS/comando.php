@@ -1,5 +1,5 @@
 <?php
-$archivo = "comando.txt";
+$archivo = "/tmp/comando.txt";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["comando"])) {
     file_put_contents($archivo, $_POST["comando"]);
