@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: acomis-dashboard
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    rootDir: .
